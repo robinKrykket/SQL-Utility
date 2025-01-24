@@ -1,3 +1,4 @@
+#Tool built to remove CTE's from queries so that they can be used by Microsoft SQL Server
 #This code is built to take a SQL document with CTEs (common expressions) as an input and return a new SQL document with those CTEs inlined into the main query
 #Set the CD to the folder that contains this file.
 #Run command with the follwing syntax: python DECTEify.py "sql_file_path.sql" -o "output_directory_location"
